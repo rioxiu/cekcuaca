@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cek Cuaca - Nordic Meteorological Station
+
+Clean, telemetry-inspired weather station providing real-time atmospheric readings and 7-day meteorological forecasts via Open-Meteo.
+
+- **Live URL**: https://cekcuaca.vercel.app
+- **Framework**: Next.js 14.2.35 App Router (TypeScript Strict, Node 22 LTS)
+- **API**: Open-Meteo Free Global Weather API (Zero auth token, zero leak risk)
+- **Design**: Nordic Meteorological Station (Steel Navy, Ice Mist, Space Mono telemetry)
+
+---
+
+## Features
+
+- **Real-Time Atmospheric Telemetry**: Temperature, relative humidity, wind speed, wind direction, surface pressure, and precipitation probability.
+- **24-Hour Diurnal Trend**: Granular hourly forecast chart showing day-and-night temperature curves.
+- **7-Day Weather Outlook**: Daily high/low tracking with meteorological status indicators.
+- **Dual Geo-Search**: Fast instant search for global cities combined with one-click HTML5 GPS browser geolocation.
+- **Privacy & Performance**: No third-party tracking scripts, zero token exposure, and strict type verification.
+
+---
+
+## Tech Stack
+
+- **Runtime**: Node 22 LTS
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript Strict
+- **Styling**: Tailwind CSS + Custom CSS Variables
+- **Telemetry Fonts**: Space Mono & Plus Jakarta Sans
+- **Deployment**: Vercel
+
+---
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+git clone https://github.com/rioxiu/cekcuaca.git
+cd cekcuaca
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000` to run the weather dashboard locally.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## License
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+MIT © Richardo Sinulingga
